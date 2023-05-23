@@ -1,0 +1,8 @@
+   Attribute:
+    - gameTable: GameField
+    - tableNet: Net
+    - ball: Ball
+    - racquet: Racquet
+   Operation:
+    + serve(): void
+    + returnBall(): void
