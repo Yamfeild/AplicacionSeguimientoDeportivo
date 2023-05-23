@@ -1,0 +1,9 @@
+   Atributtes:
+    # field: GameField
+    # rules: Rules
+    # localTeam: Team
+    # visitingTeam: Team
+    # ball: Ball
+   Operation:
+    + scorePoint(): int
+    + setAdditionalTime(): time
