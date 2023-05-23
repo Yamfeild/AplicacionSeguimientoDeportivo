@@ -1,0 +1,13 @@
+   Attribute:
+    - board: GameField
+    - piece: ChessPieces
+    - timer: Stopwatch
+    - register: Register
+    - boardPosition: string
+   Operation:
+    + movePiece(boarPosition): string
+    + capturePiece(piece): ChessPieces 
+    + promotePaws(piece): ChessPieces
+    + chek(): void
+    + checkmate(): void
+    + declareStalemate(): void
